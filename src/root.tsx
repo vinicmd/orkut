@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { DefaultTheme, ThemeProvider } from 'styled-components'
-import { App } from './App'
 import GlobalStyle from './styles/global'
 import { combineTheme, light, dark } from './styles'
+import { Home } from './pages/Home'
 
 export function Root() {
   const [theme, setTheme] = useState<DefaultTheme>(combineTheme(light))
@@ -19,7 +19,7 @@ export function Root() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <App />
+      <Home />
     </ThemeProvider>
   )
 }
