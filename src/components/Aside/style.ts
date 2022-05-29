@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.aside`
-  width: 20vw;
+  width: 16.85rem;
   height: 100%;
 
   display: flex;
@@ -29,6 +29,7 @@ export const ProfileWrapper = styled.div`
   height: 600px;
 
   border-radius: 30px;
+  border: 1px border ${({ theme }) => theme.colors.border};
 
-  background-color: ${({ theme }) => theme.colors.body};
+  background: ${({ theme }) => theme.colors.body};
 `

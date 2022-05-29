@@ -1,6 +1,7 @@
 declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
+      border: string
       body: string
       text: string
       background: string
@@ -15,6 +16,7 @@ declare module 'styled-components' {
     body: string
     text: string
     background: string
+    border: string
   }
 }
 export {}
