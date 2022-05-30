@@ -24,6 +24,11 @@ function Aside() {
           />
           <S.ProfileText>{'Erika Kauanny'}</S.ProfileText>
         </S.ProfileName>
+
+        <S.DescriptionWrapper>
+          {'femino'}, {'solteiro'}
+        </S.DescriptionWrapper>
+        <S.DescriptionWrapper>{'Goiânia - Brasil'}</S.DescriptionWrapper>
       </S.ProfileWrapper>
     </S.Container>
   )

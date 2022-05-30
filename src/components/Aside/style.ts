@@ -65,6 +65,7 @@ export const ProfilePic = styled.img`
 
 export const ProfileName = styled.div`
   margin-top: 16px;
+  margin-bottom: 6px;
   display: flex;
 `
 
@@ -79,4 +80,8 @@ export const ProfileText = styled.p`
 export const VerifiedStamp = styled.img`
   width: 16px;
   height: auto;
+`
+
+export const DescriptionWrapper = styled.p`
+  color: ${({ theme }) => theme.colors.textGrey};
 `
