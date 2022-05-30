@@ -34,12 +34,36 @@ function Aside() {
 
         <S.MenuButton>
           <S.ButtonText>
-            <S.FriendIcon />
+            <S.HomeIcon />
             Home
           </S.ButtonText>
+        </S.MenuButton>
+
+        <S.MenuButton>
           <S.ButtonText>
             <S.FriendIcon />
             Amigos
+          </S.ButtonText>
+        </S.MenuButton>
+
+        <S.MenuButton>
+          <S.ButtonText>
+            <S.StatementsIcon />
+            Depoimentos
+          </S.ButtonText>
+        </S.MenuButton>
+
+        <S.MenuButton>
+          <S.ButtonText>
+            <S.GalleryIcon />
+            Galeria
+          </S.ButtonText>
+        </S.MenuButton>
+
+        <S.MenuButton>
+          <S.ButtonText>
+            <S.GameIcon />
+            Jogos
           </S.ButtonText>
         </S.MenuButton>
       </S.ProfileWrapper>
