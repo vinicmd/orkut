@@ -4,6 +4,7 @@ declare module 'styled-components' {
       border: string
       body: string
       text: string
+      textGrey: string
       background: string
       icons: string
       pink: string

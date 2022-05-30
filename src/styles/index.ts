@@ -6,7 +6,8 @@ const defaultTheme = {
   icons: '#CCCCD2',
   pink: '#ED2590',
   blue: '#25CBFF',
-  yelow: '#FFD02C'
+  yelow: '#FFD02C',
+  textGrey: '#888'
 }
 
 function combineTheme(theme: CustomTheme): DefaultTheme {
