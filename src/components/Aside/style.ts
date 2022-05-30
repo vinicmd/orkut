@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { ImUsers } from 'react-icons/im'
 
 export const Container = styled.aside`
   width: 270px;
@@ -84,4 +85,46 @@ export const VerifiedStamp = styled.img`
 
 export const DescriptionWrapper = styled.p`
   color: ${({ theme }) => theme.colors.textGrey};
+`
+
+export const GreyLine = styled.div`
+  width: 100%;
+  height: 1px;
+
+  margin: 30px 0;
+
+  background: ${({ theme }) => theme.colors.textGrey};
+`
+
+export const MenuButton = styled.button`
+  width: 100%;
+
+  padding: 10px 0;
+
+  background: none;
+  border: none;
+
+  text-align: left;
+
+  color: ${({ theme }) => theme.colors.text};
+
+  transition: color 0.25s linear;
+
+  &:hover {
+    color: ${({ theme }) => theme.colors.textGrey};
+  }
+`
+
+export const ButtonText = styled.p`
+  font-size: 1.2rem;
+`
+
+export const HomeIcon = styled(ImUsers)`
+  color: ${({ theme }) => theme.colors.textGrey};
+  margin-right: 1rem;
+`
+
+export const FriendIcon = styled(ImUsers)`
+  color: ${({ theme }) => theme.colors.textGrey};
+  margin-right: 1rem;
 `

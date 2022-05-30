@@ -29,6 +29,19 @@ function Aside() {
           {'femino'}, {'solteiro'}
         </S.DescriptionWrapper>
         <S.DescriptionWrapper>{'Goiânia - Brasil'}</S.DescriptionWrapper>
+
+        <S.GreyLine />
+
+        <S.MenuButton>
+          <S.ButtonText>
+            <S.FriendIcon />
+            Home
+          </S.ButtonText>
+          <S.ButtonText>
+            <S.FriendIcon />
+            Amigos
+          </S.ButtonText>
+        </S.MenuButton>
       </S.ProfileWrapper>
     </S.Container>
   )
