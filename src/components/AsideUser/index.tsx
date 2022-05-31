@@ -3,7 +3,7 @@ import logo from './logo.svg'
 import stamp from './stamp.svg'
 import profilePicture from '../../assets/profilePic.jpg'
 
-function Aside() {
+function AsideUser() {
   return (
     <S.Container>
       <S.LogoContent>
@@ -71,4 +71,4 @@ function Aside() {
   )
 }
 
-export { Aside }
+export { AsideUser as Aside }

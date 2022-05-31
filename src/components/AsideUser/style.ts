@@ -56,8 +56,8 @@ export const ProfileBorder = styled.div`
 `
 
 export const ProfilePic = styled.img`
-  width: 127px;
-  height: 127px;
+  width: 124px;
+  height: 124px;
 
   border: 4px solid ${({ theme }) => theme.colors.body};
 
@@ -110,7 +110,7 @@ export const MenuButton = styled.button`
 
   margin: 5px 0;
 
-  transition: color 0.25s linear;
+  transition: color 0.2s ease;
 
   &:hover {
     color: ${({ theme }) => theme.colors.textGrey};
