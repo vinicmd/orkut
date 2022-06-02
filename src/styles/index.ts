@@ -7,7 +7,8 @@ const defaultTheme = {
   pink: '#ED2590',
   blue: '#25CBFF',
   yelow: '#FFD02C',
-  textGrey: '#888'
+  textGrey: '#888',
+  greyTransparence: 'rgba(136, 136, 136, 0.3)'
 }
 
 function combineTheme(theme: CustomTheme): DefaultTheme {

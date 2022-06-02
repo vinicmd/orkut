@@ -10,6 +10,7 @@ declare module 'styled-components' {
       pink: string
       blue: string
       yelow: string
+      greyTransparence: string
     }
   }
 

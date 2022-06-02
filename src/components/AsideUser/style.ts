@@ -103,6 +103,7 @@ export const MenuButton = styled.button`
 
   background: none;
   border: none;
+  border-radius: 30px;
 
   text-align: left;
 
@@ -112,8 +113,10 @@ export const MenuButton = styled.button`
 
   transition: color 0.2s ease;
 
+  cursor: pointer;
+
   &:hover {
-    color: ${({ theme }) => theme.colors.textGrey};
+    background: ${({ theme }) => theme.colors.greyTransparence};
   }
 `
 
@@ -122,26 +125,26 @@ export const ButtonText = styled.p`
 `
 
 export const HomeIcon = styled(ImHome)`
-  color: ${({ theme }) => theme.colors.textGrey};
-  margin-right: 1rem;
+  color: ${({ theme }) => theme.colors.icons};
+  margin: 0 1rem;
 `
 
 export const FriendIcon = styled(ImUsers)`
-  color: ${({ theme }) => theme.colors.textGrey};
-  margin-right: 1rem;
+  color: ${({ theme }) => theme.colors.icons};
+  margin: 0 1rem;
 `
 
 export const StatementsIcon = styled(ImHeart)`
-  color: ${({ theme }) => theme.colors.textGrey};
-  margin-right: 1rem;
+  color: ${({ theme }) => theme.colors.icons};
+  margin: 0 1rem;
 `
 
 export const GalleryIcon = styled(ImImage)`
-  color: ${({ theme }) => theme.colors.textGrey};
-  margin-right: 1rem;
+  color: ${({ theme }) => theme.colors.icons};
+  margin: 0 1rem;
 `
 
 export const GameIcon = styled(ImTrophy)`
-  color: ${({ theme }) => theme.colors.textGrey};
-  margin-right: 1rem;
+  color: ${({ theme }) => theme.colors.icons};
+  margin: 0 1rem;
 `
